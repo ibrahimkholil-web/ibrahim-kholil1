@@ -1,0 +1,282 @@
+
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-variation-settings:
+    "wdth" 100;
+}
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* style shere */
+.font-color{
+    color: rgb(71, 71, 71);
+
+}
+.btn-paymari{
+    color: white;
+    background-color: rgb(253, 110, 10);
+    padding: 18px 36px;
+    border-radius: 5px ;
+    border: none;
+    font-size: 20px;
+    font-family: open Sans ;
+    font-weight: 700;
+}
+main{
+    margin:0px 230px ;
+    
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.bg{
+   background-color: rgb(255, 248, 243);
+}
+.all-sub-title{
+color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.all-des{
+color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+}
+/* nav start here */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0% 50px;
+}
+.nav-title{
+font-family: Open Sans;
+font-size: 45px;
+font-weight: 800;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+}
+.nav-title > span{
+    color:rgb(253, 110, 10) ;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style:none;
+    margin-left:50px ;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: open Sans;
+}
+/* Banner section start here */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px 0px 200px;
+}
+.banner-des {
+    width: 585px;
+}
+.banner-des > h2{
+font-family: Open Sans;
+font-weight: 600;
+Font-size: 45px;
+}
+.banner-des > h1{
+    font-family: Open Sans;
+font-weight: 700;
+font-size: 85px;
+}
+.banner-des > p{
+font-family: Open Sans;
+font-weight: 400;
+font-size: 18px;
+Letter-spacing: 0%;
+color: rgb(71, 71, 71);
+}
+.banner > img{
+    width: 584px;
+
+}
+/* about section start here */
+.about-us{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 130px 116px;
+   
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.about-item{
+font-family: Open Sans;
+font-weight: 400;
+font-size: 20px;
+color: rgb(71, 71, 71);
+}
+.about-des{
+    font-family: Open Sans;
+font-weight: 700;
+Font-size: 20px;
+}
+/* Skills section start here */
+.skills{
+    text-align: center;
+}
+.skills > p{
+    padding: 0px 110px;
+}
+.skill-icon{
+    display: flex;
+    gap: 24px;
+    text-align: start;
+    margin-top: 40px ;
+   
+}
+.skill{
+    gap: 20px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    border-radius: 5px;
+    /* text-align: start;
+    display: flex;
+    gap: 20px;
+    padding: 33px ;
+    box-shadow: 0px 6px 50px 0px black; */
+}
+.skill-title{
+    font-family: Open Sans;
+font-weight: 700;
+Font-size: 20px;
+color: black;
+}
+.skill-des{
+color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+/* resume section start here */
+.resume-detailes{
+    display: flex;
+    font-family: open Sans;
+    gap: 24px;
+    margin-top: 5rem;
+}
+.resume-detailes p{
+color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+.resume-top-title >h1 {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.resume-style{
+    padding-right:30px;
+    padding-bottom: 10px;
+}
+.resume-edu-subtitle{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.resume-uni{
+color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 0%;
+}
+.resume-btn{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+/* footer section start here */
+footer{
+    padding: 130px 230px;
+}
+.footer-details{
+    display: flex;
+}
+.footer-colum P{
+color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+padding-right: 4rem ;
+
+}
+.footer-colum{
+    text-align: left;
+}
+.footer-colum h1{
+color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+}
+.footer-colum input[type="text"], input[type="email"]{
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 18px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+}
+.footer-colum textarea{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 30px;
+    font-size: medium;
+    font-weight: 600;
+}
+.footer-colum input[type="submit"]{
+    margin-top: 20px;
+    font-size: medium;
+}
